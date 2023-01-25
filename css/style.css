@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Minecrafter';
+    src: url('../resources/Minecrafter.Reg.ttf') format('truetype');
+}
+
+body {
+    background-color: #5C2041;
+    background-image: url(../images/pink.jpg);
+}
+
+#screen-overlay {
+    position: absolute;
+    /*z-index: 90;*/
+    background-color: rgba(0, 0, 0, 0.44);
+    width: 100%;
+    height: 100%;
+}
+
+#play-mode {
+    font-size: 30px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -8%;
+    background-color: rgba(78, 38, 60, .35);
+    text-align: center;
+    border-radius: 5px;
+    padding: 30px;
+    z-index: 1001;
+    color: #fff;
+}
+
+.jumbotron {
+    text-align: center;
+    color: white;
+    padding: 10em;
+    background-color: transparent;
+    z-index: 1000;
+}
+
+.jumbotron h1,
+#win-lose {
+    font-family: "Minecrafter", "Courier New", monospace;
+    font-size: 100px;
+    text-shadow: 10px 10px rgba(26, 26, 26, 0.8);
+    z-index: 1000;
+}
+
+#final {
+    display: none;
+}
+
+.container {
+    display: none;
+    /*border: 1px solid green;*/
+    padding: 0px;
+    width: 901px;
+    margin-top: -7%;
+    position: relative;
+}
+
+.minesweeper-game {
+    display: inline-block;
+    box-shadow: 8px 8px rgba(26, 26, 26, 0.7);
+    /*border: 1px solid blue;*/
+}
+
+.beginner {
+    margin: 0 314px;
+}
+
+.intermediate {
+    margin: 0 209px;
+}
+
+.expert {
+    margin: 0 119px;
+}
+
+button.levels {
+    margin: 15px auto;
+    margin-top: 15px;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    background-color: #4e263c;
+    font-size: 25px;
+    padding-top: 16px;
+}
+
+button.levels:hover {
+    color: #bd4d31;
+}
+
+button.levels:active {
+    border: 0;
+}
+
+.bomb-clicked {
+    background-image: url(../images/bomber.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.flag {
+    background-image: url(../images/flagor.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+.row {
+    margin: 0;
+}
+
+.cell {
+    border: 1px solid #321c40;
+    background-color: rgb(151, 44, 94);
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 2px;
+    /*margin: 1px;*/
+    vertical-align: top;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.clicked-on {
+    background-color: #3b5232;
+}
+
+.bomb-count,
+#reload-page {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 24px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.bomb-count {
+    margin-bottom: -5px;
+}
+
+#reload-page {
+    float: right;
+    margin-top: -40px;
+}
+
+#reload-page:hover {
+    color: #44a51d;
+    cursor: pointer;
+}
+
+#win-lose {
+    display: none;
+    text-align: center;
+    font-family: "Minecrafter", "Courier New", monospace;
+    font-size: 72px;
+    text-shadow: 10px 10px rgba(26, 26, 26, 0.8);
+    z-index: 1000;
+    color: white;
+}
