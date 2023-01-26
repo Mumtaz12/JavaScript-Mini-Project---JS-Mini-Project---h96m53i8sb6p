@@ -1,7 +1,7 @@
 # html-css-js-project-boilerplate
 # Minesweeper
 
-#### _Game of Minesweeper, Start:-January 20, 2023_
+#### _Game of Minesweeper, Start:-January 13, ----- End Date January 25 ,2023_
 
 #### By _**Mohammad Mumtaz**_
 
